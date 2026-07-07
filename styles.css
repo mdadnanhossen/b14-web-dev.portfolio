@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.btn{
+   background-color: #FD6E0A;
+   padding:10px 15px ;
+   font-weight: 700;
+   border-radius: 5px;
+   color: white;
+   border:none;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+}
+.logo{
+    font-weight: bolder;
+    font-size: 45px;
+
+}
+.logo-r{
+    color: #FD6E0A;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+}
+ul li a{
+    text-decoration: none;
+}
